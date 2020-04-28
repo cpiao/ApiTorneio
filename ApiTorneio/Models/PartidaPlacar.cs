@@ -3,11 +3,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ApiTorneio.Models
 {
-    public class Partida
+    public class PartidaPlacar
     {
 
         [Key]
-        public int PartidaId { get; set; }
+        public int PartidaPlacarId { get; set; }
 
         [StringLength(30, ErrorMessage = "Máximo 30 caracteres.")]
         [Required]
